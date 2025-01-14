@@ -2,7 +2,7 @@ import React from "react";
 import ListItem, { Item } from "./ListItem/ListItem";
 
 type listingProps = {
-  items: any;
+  items: Item[];
 };
 
 const Listing: React.FC<listingProps> = ({ items }) => {
