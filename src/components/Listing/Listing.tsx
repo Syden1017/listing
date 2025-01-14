@@ -8,7 +8,7 @@ type listingProps = {
 const Listing: React.FC<listingProps> = ({ items }) => {
   return (
     <ul className="item-list">
-      {items.map((item: Item) => (
+      {items.map((item) => (
         <ListItem key={item.listing_id} item={item} />
       ))}
     </ul>
